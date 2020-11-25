@@ -8,7 +8,7 @@ import android.text.TextWatcher;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import cl.desafiolatam.validarpassword.validador.Password;
+import cl.desafiolatam.validarpassword.validador.Verifier;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void calcularPassword(String str) {
-        Password password = Password.calcular(str);
+        Verifier password = Verifier.evaluarPassword(str);
         tvMensaje.setText(password.mensaje);
         tvMensaje.setBackgroundColor(password.color);
     }
