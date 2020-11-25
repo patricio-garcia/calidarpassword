@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ValidarPassword</string>
+    <!-- Se crean los strings a utilizar para los colores -->
+    <string name="weak">Weak</string>
+    <string name="medium">Medium</string>
+    <string name="strong">Strong</string>
+    <string name="very_strong">Very Strong</string>
+</resources>
